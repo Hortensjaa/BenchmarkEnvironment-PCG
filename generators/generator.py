@@ -13,7 +13,10 @@ class Generator:
         return NotImplementedError("The update function is not implemented, please make sure to implment it.")
     
     def best(self):
-        return NotImplemented("The best function returns the current state of the generation (content).")
+        return NotImplemented("The best function returns the current state of the fitness value.")
+
+    def best_solution(self):
+        return NotImplemented("The best_solution function returns the current best generated content.")
     
     def save(self, folderpath):
         raise NotImplementedError("The save function is not implemented, please make sure to implment it.")

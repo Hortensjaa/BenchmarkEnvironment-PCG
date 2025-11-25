@@ -103,6 +103,9 @@ class Generator(base.Generator):
     def best(self):
         return self._fitness_fn(self._chromosomes[0])
 
+    def best_solution(self):
+        return self._chromosomes[0]._content
+
     def save(self, folderpath):
         if os.path.exists(folderpath):
             shutil.rmtree(folderpath)

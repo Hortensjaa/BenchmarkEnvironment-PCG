@@ -32,6 +32,7 @@ def main(folder: str = 'outputs',
          steps: int = 100,
          early_stop: bool = False,
          seed: int = None,
+         render: bool = False,
          **kwargs):
     """
     Run a generator from the list of generators.
@@ -43,6 +44,7 @@ def main(folder: str = 'outputs',
         steps (int): Number of iterations to run the generator
         early_stop (bool): Stop generation when the best fitness reaches 1
         seed (int): Random seed for the environment (optional)
+        render: should best solution be rendered at the end of generation
         **kwargs: Additional arguments passed to the generator (e.g., fitness='quality_control')
     
     Examples:
@@ -92,6 +94,10 @@ def main(folder: str = 'outputs',
             break
     
     print(f"\nGeneration complete! Results saved to '{outputfolder}'")
+    if render:
+        content = gen.best_solution()
+        img = env.render(content)
+        img.show()
 
 if __name__ == "__main__":
     fire.Fire(main)
