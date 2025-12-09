@@ -33,6 +33,7 @@ def main(folder: str = 'outputs',
          early_stop: bool = False,
          seed: int = None,
          render: bool = False,
+         save: bool = False,
          **kwargs):
     """
     Run a generator from the list of generators.
@@ -44,7 +45,8 @@ def main(folder: str = 'outputs',
         steps (int): Number of iterations to run the generator
         early_stop (bool): Stop generation when the best fitness reaches 1
         seed (int): Random seed for the environment (optional)
-        render: should best solution be rendered at the end of generation
+        render (bool): should best solution be rendered at the end of generation
+        save (bool): should solutions be saved to output folder
         **kwargs: Additional arguments passed to the generator (e.g., fitness='quality_control')
     
     Examples:
@@ -81,19 +83,23 @@ def main(folder: str = 'outputs',
     # Reset generator with additional kwargs
     gen.reset(**kwargs)
     print(f"  Iteration 0: {gen.best():.2f}")
-    gen.save(f"{outputfolder}/iter_0")
+    if save:
+        gen.save(f"{outputfolder}/iter_0")
     
     # Run iterations
     for i in range(steps):
         gen.update()
         print(f"  Iteration {i+1}: {gen.best():.2f}")
-        gen.save(f"{outputfolder}/iter_{i+1}")
+        if save:
+            gen.save(f"{outputfolder}/iter_{i+1}")
         
         if early_stop and gen.best() >= 1:
             print(f"\nEarly stopping at iteration {i+1} (fitness >= 1.0)")
             break
-    
-    print(f"\nGeneration complete! Results saved to '{outputfolder}'")
+
+    print(f"\nGeneration complete!")
+    if save:
+        print(f"Results saved to '{outputfolder}'")
     if render:
         content = gen.best_solution()
         img = env.render(content)

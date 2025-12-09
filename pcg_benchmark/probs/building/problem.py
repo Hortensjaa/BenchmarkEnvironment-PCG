@@ -1,4 +1,5 @@
 from pcg_benchmark.probs import Problem
+from pcg_benchmark.probs.map_elites_problem import MapElitesInterface, _DBStructValue, DBStruct
 from pcg_benchmark.probs.utils import get_range_reward
 from pcg_benchmark.spaces import DictionarySpace, ArraySpace, IntegerSpace
 import os
@@ -80,7 +81,7 @@ def _simulate(content, width, length, height):
                         found = True
     return result, heights, failed
 
-class BuildingProblem(Problem):
+class BuildingProblem(Problem, MapElitesInterface):
     def __init__(self, **kwargs):
         Problem.__init__(self, **kwargs)
 
@@ -123,6 +124,16 @@ class BuildingProblem(Problem):
             "3x1": values[2],
             "3x3": values[3]
         }
+
+    def name(self) -> str:
+        return "building"
+
+    def descriptor_space(self):
+        # number of medium blocks, heights deviation
+        return DBStruct(
+            X_behavior=_DBStructValue("1x1", 30),
+            Y_behavior=_DBStructValue("3x3", 30)
+        )
     
     def quality(self, info):
         target = get_range_reward(info["blocks"], 0, self._target)

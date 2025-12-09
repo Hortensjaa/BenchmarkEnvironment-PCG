@@ -1,4 +1,5 @@
 from pcg_benchmark.probs import Problem
+from pcg_benchmark.probs.map_elites_problem import MapElitesInterface, DBStruct, _DBStructValue
 from pcg_benchmark.probs.utils import get_range_reward
 from pcg_benchmark.spaces import ArraySpace, IntegerSpace, DictionarySpace
 import numpy as np
@@ -20,7 +21,7 @@ def _getWords(letters, dictionary):
             results.append((word, len(max(binary.split('0')))))
     return results
 
-class EliminationProblem(Problem):
+class EliminationProblem(Problem, MapElitesInterface):
     def __init__(self, **kwargs):
         Problem.__init__(self, **kwargs)
 
@@ -74,7 +75,19 @@ class EliminationProblem(Problem):
         }
         for i in range(self._letters - 2):
             result[f"words_{i+3}"] = final_words[i]
+        result["short_words_len"] = len(result[f"words_3"]) + len(result[f"words_4"])
+        result["long_words_len"] = len(result[f"words_5"]) + len(result[f"words_6"])
         return result
+
+    def name(self) -> str:
+        return "elimination"
+
+    def descriptor_space(self):
+        # number of short and long words
+        return DBStruct(
+            X_behavior=_DBStructValue("short_words_len", 40),
+            Y_behavior=_DBStructValue("long_words_len", 20)
+        )
     
     def quality(self, info):
         common_words = 0

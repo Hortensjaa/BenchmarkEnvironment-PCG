@@ -1,4 +1,5 @@
 from pcg_benchmark.probs import Problem
+from pcg_benchmark.probs.map_elites_problem import DBStruct, _DBStructValue, MapElitesInterface
 from pcg_benchmark.spaces import ArraySpace, IntegerSpace, DictionarySpace
 from pcg_benchmark.probs.utils import get_number_regions, get_range_reward, get_num_tiles, get_distance_length, get_path
 from difflib import SequenceMatcher
@@ -6,7 +7,7 @@ import numpy as np
 from PIL import Image
 import os
 
-class ZeldaProblem(Problem):
+class ZeldaProblem(Problem, MapElitesInterface):
     def __init__(self, **kwargs):
         Problem.__init__(self, **kwargs)
         self._width = kwargs.get("width")
@@ -27,6 +28,7 @@ class ZeldaProblem(Problem):
     def info(self, content):
         content = np.array(content)
         number_regions = get_number_regions(content, [1, 2, 3, 4, 5])
+        number_walls = get_num_tiles(content, [0])
         number_player = get_num_tiles(content, [2])
         number_key = get_num_tiles(content, [3])
         number_door = get_num_tiles(content, [4])
@@ -39,9 +41,18 @@ class ZeldaProblem(Problem):
         return {
             "regions": number_regions, "players": number_player, 
             "keys": number_key, "doors": number_door, "enemies": number_enemies,
-            "player_key": player_key, "key_door": key_door,
+            "player_key": player_key, "key_door": key_door, "walls": number_walls,
             "pk_path": pk_path, "kd_path": kd_path,
         }
+
+    def name(self) -> str:
+        return "zelda"
+
+    def descriptor_space(self):
+        return DBStruct(
+            X_behavior=_DBStructValue("enemies", 35),
+            Y_behavior=_DBStructValue("walls", 35)
+        )
 
     def quality(self, info):
         regions = get_range_reward(info["regions"], 0, 1, 1, self._width * self._height / 10)

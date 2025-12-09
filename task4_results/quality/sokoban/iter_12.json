@@ -1,0 +1,439 @@
+{
+  "iter": 12,
+  "space_size": 100,
+  "coverage": 0.06,
+  "grid": [
+    [
+      {
+        "control": {
+          "crates": 4
+        },
+        "info": {
+          "players": 1,
+          "crates": 10,
+          "targets": 10,
+          "content": [
+            [
+              4,
+              4,
+              0,
+              1,
+              1
+            ],
+            [
+              3,
+              1,
+              3,
+              2,
+              3
+            ],
+            [
+              4,
+              4,
+              3,
+              3,
+              4
+            ],
+            [
+              3,
+              3,
+              4,
+              4,
+              3
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              4
+            ]
+          ],
+          "heuristic": 4,
+          "solution": [],
+          "len_solution": 0
+        },
+        "quality": 0.7399999999760001,
+        "diversity": 0.33333333333333337,
+        "controlability": 0.749999999625
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "control": {
+          "crates": 4
+        },
+        "info": {
+          "players": 1,
+          "crates": 10,
+          "targets": 10,
+          "content": [
+            [
+              4,
+              4,
+              4,
+              1,
+              1
+            ],
+            [
+              3,
+              3,
+              3,
+              2,
+              3
+            ],
+            [
+              4,
+              1,
+              4,
+              3,
+              4
+            ],
+            [
+              3,
+              3,
+              4,
+              4,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              4
+            ]
+          ],
+          "heuristic": 6,
+          "solution": [],
+          "len_solution": 0
+        },
+        "quality": 0.7349999999765,
+        "diversity": 1.0,
+        "controlability": 0.749999999625
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "control": {
+          "crates": 4
+        },
+        "info": {
+          "players": 1,
+          "crates": 10,
+          "targets": 10,
+          "content": [
+            [
+              4,
+              4,
+              3,
+              1,
+              1
+            ],
+            [
+              3,
+              4,
+              3,
+              4,
+              3
+            ],
+            [
+              4,
+              4,
+              1,
+              3,
+              4
+            ],
+            [
+              3,
+              3,
+              2,
+              4,
+              3
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              0
+            ]
+          ],
+          "heuristic": 10,
+          "solution": [],
+          "len_solution": 0
+        },
+        "quality": 0.7249999999775,
+        "diversity": 0.33333333333333337,
+        "controlability": 0.749999999625
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "control": {
+          "crates": 4
+        },
+        "info": {
+          "players": 1,
+          "crates": 10,
+          "targets": 10,
+          "content": [
+            [
+              4,
+              4,
+              3,
+              1,
+              1
+            ],
+            [
+              3,
+              4,
+              3,
+              4,
+              4
+            ],
+            [
+              4,
+              1,
+              4,
+              3,
+              4
+            ],
+            [
+              3,
+              3,
+              2,
+              4,
+              3
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              0
+            ]
+          ],
+          "heuristic": 15,
+          "solution": [],
+          "len_solution": 0
+        },
+        "quality": 0.71249999997875,
+        "diversity": 0.19999999999999996,
+        "controlability": 0.749999999625
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "control": {
+          "crates": 4
+        },
+        "info": {
+          "players": 1,
+          "crates": 10,
+          "targets": 10,
+          "content": [
+            [
+              4,
+              4,
+              4,
+              3,
+              1
+            ],
+            [
+              4,
+              1,
+              3,
+              4,
+              3
+            ],
+            [
+              3,
+              1,
+              0,
+              3,
+              4
+            ],
+            [
+              3,
+              3,
+              2,
+              4,
+              4
+            ],
+            [
+              3,
+              3,
+              3,
+              4,
+              4
+            ]
+          ],
+          "heuristic": 20,
+          "solution": [],
+          "len_solution": 0
+        },
+        "quality": 0.69999999998,
+        "diversity": 0.19999999999999996,
+        "controlability": 0.749999999625
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "control": {
+          "crates": 4
+        },
+        "info": {
+          "players": 1,
+          "crates": 10,
+          "targets": 10,
+          "content": [
+            [
+              4,
+              4,
+              4,
+              3,
+              1
+            ],
+            [
+              4,
+              1,
+              3,
+              4,
+              0
+            ],
+            [
+              4,
+              1,
+              3,
+              3,
+              4
+            ],
+            [
+              4,
+              3,
+              2,
+              4,
+              3
+            ],
+            [
+              3,
+              3,
+              3,
+              4,
+              3
+            ]
+          ],
+          "heuristic": 25,
+          "solution": [],
+          "len_solution": 0
+        },
+        "quality": 0.68749999998125,
+        "diversity": 1.0,
+        "controlability": 0.749999999625
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}
