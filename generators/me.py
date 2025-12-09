@@ -9,7 +9,7 @@ def _bin(value, min_v, max_v, bins):
     return int((value - min_v) / (max_v - min_v) * bins)
 
 def _save_space(space, iter_num=0, problem_name="unknown"):
-    out_dir = "./task4_results/quality_control_diversity/" + problem_name
+    out_dir = "./task4_results/quality_control/" + problem_name
     path = os.path.join(out_dir, f"iter_{iter_num}.json")
     os.makedirs(out_dir, exist_ok=True)
 

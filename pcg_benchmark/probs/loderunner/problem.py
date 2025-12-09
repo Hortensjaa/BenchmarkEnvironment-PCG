@@ -1,4 +1,5 @@
 from pcg_benchmark.probs import Problem
+from pcg_benchmark.probs.map_elites_problem import DBStruct, _DBStructValue, MapElitesInterface
 from pcg_benchmark.spaces import DictionarySpace, ArraySpace, IntegerSpace
 from pcg_benchmark.probs.loderunner.utils import play_loderunner, read_loderunner, js_dist
 from pcg_benchmark.probs.utils import get_num_tiles, _get_certain_tiles, get_number_regions, get_vert_histogram, get_horz_histogram, get_range_reward
@@ -15,7 +16,7 @@ def _getLvl(content, patterns):
             lvl[-1][x] = 0
     return lvl
 
-class LodeRunnerProblem(Problem):
+class LodeRunnerProblem(Problem, MapElitesInterface):
     def __init__(self, **kwargs):
         Problem.__init__(self, **kwargs)
 
@@ -126,7 +127,17 @@ class LodeRunnerProblem(Problem):
             "climbing": js_dist(climbing, self._climbing),
             "falling": js_dist(falling, self._falling)
         }
-    
+
+
+    def name(self) -> str:
+        return "loderunner"
+
+    def descriptor_space(self):
+        return DBStruct(
+            X_behavior=_DBStructValue("gold", 40),
+            Y_behavior=_DBStructValue("enemy", 20)
+        )
+
     def quality(self, info):
         stats = get_range_reward(info["player"], 0, 1, 1, self._width * self._height)
         stats += get_range_reward(info["gold"], 0, self._gold, 2 * self._gold, self._width * self._height)

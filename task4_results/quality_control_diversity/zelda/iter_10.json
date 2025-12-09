@@ -1,790 +1,386 @@
 {
   "iter": 10,
   "space_size": 100,
-  "coverage": 0.71,
+  "coverage": 0.73,
   "grid": [
     [
-      null,
-      null,
       {
         "control": {
-          "player_key": 16,
-          "key_door": 15
+          "player_key": 12,
+          "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 11,
-          "keys": 11,
-          "doors": 11,
+          "players": 12,
+          "keys": 17,
+          "doors": 16,
+          "enemies": 3,
+          "player_key": 1,
+          "key_door": 1,
+          "walls": 3,
+          "pk_path": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4654605262956631,
+        "diversity": 1.0,
+        "controlability": 0.08333333326111111
+      },
+      {
+        "control": {
+          "player_key": 12,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 9,
+          "keys": 18,
+          "doors": 13,
+          "enemies": 3,
+          "player_key": 3,
+          "key_door": 1,
+          "walls": 5,
+          "pk_path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4695723684003852,
+        "diversity": 1.0,
+        "controlability": 0.18333333316111108
+      },
+      {
+        "control": {
+          "player_key": 12,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 14,
+          "keys": 10,
+          "doors": 17,
           "enemies": 3,
           "player_key": -1,
-          "key_door": 14,
+          "key_door": 2,
           "walls": 10,
           "pk_path": [],
           "kd_path": []
         },
-        "quality": 0.4753289473469962,
+        "quality": 0.4687499999794408,
         "diversity": 1.0,
-        "controlability": 0.5
+        "controlability": 0.06666666662222222
+      },
+      {
+        "control": {
+          "player_key": 12,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 12,
+          "keys": 10,
+          "doors": 6,
+          "enemies": 3,
+          "player_key": 4,
+          "key_door": 6,
+          "walls": 11,
+          "pk_path": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4794407894517183,
+        "diversity": 0.8030302929292932,
+        "controlability": 0.39999999966666666
       },
       {
         "control": {
           "player_key": 16,
-          "key_door": 15
+          "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 7,
+          "players": 6,
           "keys": 12,
-          "doors": 8,
+          "doors": 9,
           "enemies": 3,
           "player_key": -1,
-          "key_door": 1,
-          "walls": 13,
+          "key_door": 2,
+          "walls": 16,
           "pk_path": [],
           "kd_path": []
         },
         "quality": 0.48026315787266277,
         "diversity": 1.0,
-        "controlability": 0.03846153843195266
+        "controlability": 0.06666666662222222
       },
       {
         "control": {
-          "player_key": 16,
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 10,
+          "keys": 9,
+          "doors": 8,
+          "enemies": 3,
+          "player_key": 5,
+          "key_door": 1,
+          "walls": 20,
+          "pk_path": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.48026315787266277,
+        "diversity": 1.0,
+        "controlability": 0.27727272701611566
+      },
+      {
+        "control": {
+          "player_key": 14,
           "key_door": 15
         },
         "info": {
           "regions": 1,
-          "players": 9,
-          "keys": 11,
-          "doors": 9,
-          "enemies": 3,
-          "player_key": 11,
-          "key_door": 14,
-          "walls": 14,
+          "players": 11,
+          "keys": 9,
+          "doors": 7,
+          "enemies": 2,
+          "player_key": 12,
+          "key_door": 2,
+          "walls": 24,
           "pk_path": [
             [
-              2,
+              0,
+              0
+            ],
+            [
+              0,
               1
             ],
             [
-              2,
+              0,
               2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
             ],
             [
               3,
-              2
+              3
             ],
             [
               4,
-              2
+              3
+            ],
+            [
+              5,
+              3
             ],
             [
               5,
               2
             ],
             [
-              6,
-              2
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              8,
-              2
-            ],
-            [
-              9,
-              2
-            ],
-            [
-              9,
+              5,
               1
             ],
             [
-              9,
+              5,
               0
             ],
             [
-              10,
+              6,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4802631578726627,
+        "diversity": 1.0,
+        "controlability": 0.5769230768639053
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 11,
+          "keys": 10,
+          "doors": 8,
+          "enemies": 3,
+          "player_key": 2,
+          "key_door": 5,
+          "walls": 26,
+          "pk_path": [
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
               0
             ]
           ],
           "kd_path": []
         },
         "quality": 0.4786184210307739,
-        "diversity": 1.0,
-        "controlability": 0.8928571425765306
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 12,
-          "keys": 15,
-          "doors": 4,
-          "enemies": 3,
-          "player_key": 1,
-          "key_door": 6,
-          "walls": 20,
-          "pk_path": [
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4769736841888851,
-        "diversity": 1.0,
-        "controlability": 0.38888888845679004
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 10,
-          "keys": 13,
-          "doors": 4,
-          "enemies": 3,
-          "player_key": -1,
-          "key_door": 8,
-          "walls": 24,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.48026315787266277,
-        "diversity": 0.8731343159203984,
-        "controlability": 0.4444444439506172
-      },
-      null,
-      null,
-      null
-    ],
-    [
-      null,
-      {
-        "control": {
-          "player_key": 12,
-          "key_door": 12
-        },
-        "info": {
-          "regions": 1,
-          "players": 17,
-          "keys": 10,
-          "doors": 14,
-          "enemies": 5,
-          "player_key": 5,
-          "key_door": 2,
-          "walls": 4,
-          "pk_path": [
-            [
-              7,
-              0
-            ],
-            [
-              6,
-              0
-            ],
-            [
-              5,
-              0
-            ],
-            [
-              4,
-              0
-            ],
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4678938355874348,
-        "diversity": 1.0,
-        "controlability": 0.34999999964999995
-      },
-      {
-        "control": {
-          "player_key": 12,
-          "key_door": 12
-        },
-        "info": {
-          "regions": 1,
-          "players": 10,
-          "keys": 10,
-          "doors": 12,
-          "enemies": 4,
-          "player_key": 8,
-          "key_door": 12,
-          "walls": 10,
-          "pk_path": [
-            [
-              4,
-              0
-            ],
-            [
-              4,
-              1
-            ],
-            [
-              5,
-              1
-            ],
-            [
-              6,
-              1
-            ],
-            [
-              6,
-              0
-            ],
-            [
-              7,
-              0
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              9,
-              0
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4761513157679406,
-        "diversity": 0.33333333333333337,
-        "controlability": 0.8999999996
+        "diversity": 0.7380952301587305,
+        "controlability": 0.34090909057644625
       },
       {
         "control": {
           "player_key": 14,
-          "key_door": 17
-        },
-        "info": {
-          "regions": 1,
-          "players": 9,
-          "keys": 9,
-          "doors": 8,
-          "enemies": 6,
-          "player_key": 2,
-          "key_door": 2,
-          "walls": 12,
-          "pk_path": [
-            [
-              4,
-              0
-            ],
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4793731975181568,
-        "diversity": 1.0,
-        "controlability": 0.1499999998861111
-      },
-      {
-        "control": {
-          "player_key": 12,
-          "key_door": 17
-        },
-        "info": {
-          "regions": 1,
-          "players": 7,
-          "keys": 7,
-          "doors": 6,
-          "enemies": 6,
-          "player_key": 7,
-          "key_door": 8,
-          "walls": 17,
-          "pk_path": [
-            [
-              4,
-              1
-            ],
-            [
-              4,
-              2
-            ],
-            [
-              5,
-              2
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              7,
-              1
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              8,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4843074080438234,
-        "diversity": 0.9444444296296302,
-        "controlability": 0.6166666661388889
-      },
-      {
-        "control": {
-          "player_key": 18,
-          "key_door": 14
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 8,
-          "doors": 8,
-          "enemies": 5,
-          "player_key": 6,
-          "key_door": 4,
-          "walls": 18,
-          "pk_path": [
-            [
-              4,
-              0
-            ],
-            [
-              4,
-              1
-            ],
-            [
-              4,
-              2
-            ],
-            [
-              5,
-              2
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              6,
-              1
-            ],
-            [
-              6,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4835188355853789,
-        "diversity": 1.0,
-        "controlability": 0.35416666641059025
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 8,
-          "doors": 7,
-          "enemies": 5,
-          "player_key": 1,
-          "key_door": 1,
-          "walls": 22,
-          "pk_path": [
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4826964671644345,
-        "diversity": 0.33333333333333337,
-        "controlability": 0.1111111109876543
-      },
-      {
-        "control": {
-          "player_key": 18,
-          "key_door": 14
-        },
-        "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 9,
-          "doors": 7,
-          "enemies": 6,
-          "player_key": -1,
-          "key_door": 3,
-          "walls": 26,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.4810179343600457,
-        "diversity": 1.0,
-        "controlability": 0.12499999989583332
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 2,
-          "players": 11,
-          "keys": 7,
-          "doors": 8,
-          "enemies": 6,
-          "player_key": -1,
-          "key_door": 1,
-          "walls": 28,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.4420597643648933,
-        "diversity": 0.33333333333333337,
-        "controlability": 0.05555555549382715
-      },
-      null
-    ],
-    [
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 11,
-          "keys": 13,
-          "doors": 13,
-          "enemies": 8,
-          "player_key": 5,
-          "key_door": 1,
-          "walls": 3,
-          "pk_path": [
-            [
-              7,
-              0
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              9,
-              1
-            ],
-            [
-              10,
-              1
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4686148161208794,
-        "diversity": 1.0,
-        "controlability": 0.2727272724793388
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 13,
-          "keys": 9,
-          "doors": 7,
-          "enemies": 8,
-          "player_key": 7,
-          "key_door": 1,
-          "walls": 6,
-          "pk_path": [
-            [
-              5,
-              0
-            ],
-            [
-              6,
-              0
-            ],
-            [
-              7,
-              0
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              9,
-              1
-            ],
-            [
-              10,
-              1
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4751937634884348,
-        "diversity": 1.0,
-        "controlability": 0.3636363633057851
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 9,
-          "keys": 8,
-          "doors": 4,
-          "enemies": 10,
-          "player_key": 7,
-          "key_door": 2,
-          "walls": 10,
-          "pk_path": [
-            [
-              5,
-              0
-            ],
-            [
-              5,
-              1
-            ],
-            [
-              6,
-              1
-            ],
-            [
-              7,
-              1
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              9,
-              0
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4800603820891015,
-        "diversity": 0.7398937263417267,
-        "controlability": 0.4090909087190082
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 9,
-          "keys": 6,
-          "doors": 4,
-          "enemies": 9,
-          "player_key": 7,
-          "key_door": 2,
-          "walls": 12,
-          "pk_path": [
-            [
-              5,
-              0
-            ],
-            [
-              5,
-              1
-            ],
-            [
-              6,
-              1
-            ],
-            [
-              7,
-              1
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              9,
-              0
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4825612833144347,
-        "diversity": 1.0,
-        "controlability": 0.4090909087190082
-      },
-      {
-        "control": {
-          "player_key": 16,
           "key_door": 15
         },
         "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 6,
+          "regions": 3,
+          "players": 13,
+          "keys": 5,
           "doors": 6,
-          "enemies": 7,
-          "player_key": 5,
-          "key_door": 11,
-          "walls": 17,
+          "enemies": 3,
+          "player_key": -1,
+          "key_door": 4,
+          "walls": 30,
+          "pk_path": [],
+          "kd_path": []
+        },
+        "quality": 0.4081033972021033,
+        "diversity": 0.5,
+        "controlability": 0.15384615372781063
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 4,
+          "players": 10,
+          "keys": 4,
+          "doors": 9,
+          "enemies": 3,
+          "player_key": 1,
+          "key_door": 16,
+          "walls": 33,
           "pk_path": [
             [
-              5,
+              3,
               0
             ],
             [
-              6,
-              0
-            ],
-            [
-              7,
-              0
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              9,
-              0
-            ],
-            [
-              10,
+              2,
               0
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.483451243660379,
+        "quality": 0.3716123328429185,
         "diversity": 1.0,
-        "controlability": 0.6016483511953569
-      },
+        "controlability": 0.5416666666319444
+      }
+    ],
+    [
       {
         "control": {
-          "player_key": 11,
-          "key_door": 11
+          "player_key": 12,
+          "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 8,
-          "keys": 4,
-          "doors": 4,
-          "enemies": 9,
-          "player_key": -1,
-          "key_door": 12,
-          "walls": 18,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.485028388577268,
-        "diversity": 1.0,
-        "controlability": 0.5
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 4,
-          "doors": 8,
-          "enemies": 9,
+          "players": 10,
+          "keys": 17,
+          "doors": 16,
+          "enemies": 4,
           "player_key": 1,
-          "key_door": 7,
-          "walls": 21,
+          "key_door": 1,
+          "walls": 3,
           "pk_path": [
             [
-              1,
-              0
+              0,
+              1
             ],
             [
               0,
@@ -793,493 +389,62 @@
           ],
           "kd_path": []
         },
-        "quality": 0.48338365173537917,
+        "quality": 0.46710526313755196,
         "diversity": 1.0,
-        "controlability": 0.4444444439506172
+        "controlability": 0.08333333326111111
       },
       {
         "control": {
-          "player_key": 18,
-          "key_door": 14
-        },
-        "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 8,
-          "doors": 5,
-          "enemies": 9,
-          "player_key": 3,
-          "key_door": 4,
-          "walls": 26,
-          "pk_path": [
-            [
-              3,
-              0
-            ],
-            [
-              3,
-              1
-            ],
-            [
-              3,
-              2
-            ],
-            [
-              2,
-              2
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4809165464725459,
-        "diversity": 0.402777775462963,
-        "controlability": 0.260416666469184
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 7,
-          "doors": 9,
-          "enemies": 9,
-          "player_key": -1,
-          "key_door": 4,
-          "walls": 28,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.47844944120971256,
-        "diversity": 1.0,
-        "controlability": 0.2222222219753086
-      },
-      null
-    ],
-    [
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 16
-        },
-        "info": {
-          "regions": 1,
-          "players": 14,
-          "keys": 11,
-          "doors": 10,
-          "enemies": 12,
-          "player_key": 1,
-          "key_door": 1,
-          "walls": 3,
-          "pk_path": [
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4668348954289908,
-        "diversity": 1.0,
-        "controlability": 0.07142857137755101
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 9,
-          "doors": 9,
-          "enemies": 12,
-          "player_key": 11,
-          "key_door": 3,
-          "walls": 6,
-          "pk_path": [
-            [
-              5,
-              0
-            ],
-            [
-              5,
-              1
-            ],
-            [
-              5,
-              2
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              7,
-              3
-            ],
-            [
-              8,
-              3
-            ],
-            [
-              9,
-              3
-            ],
-            [
-              10,
-              3
-            ],
-            [
-              10,
-              2
-            ],
-            [
-              10,
-              1
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.47423621121749066,
-        "diversity": 0.7298850498084295,
-        "controlability": 0.6363636362396694
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 10,
-          "keys": 7,
-          "doors": 4,
-          "enemies": 12,
-          "player_key": 7,
-          "key_door": 10,
-          "walls": 10,
-          "pk_path": [
-            [
-              5,
-              0
-            ],
-            [
-              5,
-              1
-            ],
-            [
-              6,
-              1
-            ],
-            [
-              7,
-              1
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              9,
-              0
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.47834805332221275,
-        "diversity": 0.5,
-        "controlability": 0.7727272720247933
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 5,
-          "doors": 6,
-          "enemies": 12,
-          "player_key": 9,
-          "key_door": 12,
-          "walls": 12,
-          "pk_path": [
-            [
-              5,
-              0
-            ],
-            [
-              5,
-              1
-            ],
-            [
-              5,
-              2
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              7,
-              1
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              9,
-              0
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4799927901641017,
-        "diversity": 1.0,
-        "controlability": 0.9090909087190082
-      },
-      {
-        "control": {
-          "player_key": 14,
+          "player_key": 12,
           "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 6,
-          "keys": 10,
-          "doors": 2,
-          "enemies": 11,
-          "player_key": 9,
-          "key_door": 4,
-          "walls": 15,
+          "players": 7,
+          "keys": 17,
+          "doors": 12,
+          "enemies": 4,
+          "player_key": 3,
+          "key_door": 1,
+          "walls": 6,
           "pk_path": [
             [
-              4,
-              1
-            ],
-            [
-              4,
-              2
-            ],
-            [
-              4,
-              3
-            ],
-            [
-              5,
-              3
-            ],
-            [
-              6,
-              3
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              6,
-              1
-            ],
-            [
-              6,
+              0,
               0
             ],
             [
-              7,
+              1,
               0
             ],
             [
-              8,
+              2,
+              0
+            ],
+            [
+              3,
               0
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.4816713229684904,
+        "quality": 0.47286184208416293,
         "diversity": 1.0,
-        "controlability": 0.5083333329319444
+        "controlability": 0.18333333316111108
       },
       {
         "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 4,
-          "keys": 6,
-          "doors": 7,
-          "enemies": 11,
-          "player_key": -1,
-          "key_door": 8,
-          "walls": 20,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.4824936913894349,
-        "diversity": 1.0,
-        "controlability": 0.4444444439506172
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 5,
-          "keys": 5,
-          "doors": 7,
-          "enemies": 11,
-          "player_key": -1,
-          "key_door": 8,
-          "walls": 21,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.4824936913894349,
-        "diversity": 1.0,
-        "controlability": 0.4444444439506172
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
+          "player_key": 12,
+          "key_door": 17
         },
         "info": {
           "regions": 1,
           "players": 8,
-          "keys": 6,
-          "doors": 9,
-          "enemies": 11,
-          "player_key": -1,
-          "key_door": 6,
-          "walls": 26,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.4775594808637683,
-        "diversity": 0.33333333333333337,
-        "controlability": 0.3333333329629629
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 7,
-          "keys": 7,
-          "doors": 9,
-          "enemies": 11,
-          "player_key": -1,
-          "key_door": 4,
-          "walls": 28,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.4775594808637683,
-        "diversity": 0.25,
-        "controlability": 0.2222222219753086
-      },
-      null
-    ],
-    [
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 11,
-          "doors": 12,
-          "enemies": 15,
-          "player_key": -1,
-          "key_door": 3,
-          "walls": 3,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.4692006128043243,
-        "diversity": 1.0,
-        "controlability": 0.1363636362396694
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 7,
-          "keys": 8,
-          "doors": 10,
-          "enemies": 14,
-          "player_key": -1,
-          "key_door": 3,
-          "walls": 5,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.47334625087154636,
-        "diversity": 1.0,
-        "controlability": 0.1363636362396694
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 7,
-          "doors": 5,
-          "enemies": 14,
-          "player_key": 7,
-          "key_door": 10,
-          "walls": 10,
+          "keys": 13,
+          "doors": 4,
+          "enemies": 6,
+          "player_key": 10,
+          "key_door": 12,
+          "walls": 9,
           "pk_path": [
             [
               5,
@@ -1290,49 +455,61 @@
               1
             ],
             [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
               6,
-              1
+              3
             ],
             [
               7,
-              1
+              3
             ],
             [
               8,
-              1
+              3
             ],
             [
-              8,
-              0
+              9,
+              3
+            ],
+            [
+              9,
+              2
+            ],
+            [
+              9,
+              1
             ],
             [
               9,
               0
-            ],
-            [
-              10,
-              0
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.4774580929762685,
+        "quality": 0.4801955659391013,
         "diversity": 1.0,
-        "controlability": 0.7727272720247933
+        "controlability": 0.8999999997333333
       },
       {
         "control": {
-          "player_key": 11,
-          "key_door": 11
+          "player_key": 16,
+          "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 7,
-          "keys": 8,
-          "doors": 2,
-          "enemies": 14,
-          "player_key": 5,
-          "key_door": 4,
+          "players": 11,
+          "keys": 5,
+          "doors": 10,
+          "enemies": 5,
+          "player_key": 9,
+          "key_door": 1,
           "walls": 13,
           "pk_path": [
             [
@@ -1344,12 +521,12 @@
               1
             ],
             [
-              5,
-              2
+              4,
+              1
             ],
             [
-              5,
-              3
+              4,
+              2
             ],
             [
               4,
@@ -1358,228 +535,110 @@
             [
               3,
               3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.47992519823910174,
+        "quality": 0.48022936190160115,
         "diversity": 1.0,
-        "controlability": 0.4999999994444444
+        "controlability": 0.35476190451009065
       },
       {
         "control": {
-          "player_key": 11,
-          "key_door": 11
+          "player_key": 16,
+          "key_door": 17
         },
         "info": {
           "regions": 1,
           "players": 6,
-          "keys": 6,
-          "doors": 5,
-          "enemies": 15,
-          "player_key": 7,
-          "key_door": 2,
+          "keys": 12,
+          "doors": 6,
+          "enemies": 5,
+          "player_key": 8,
+          "key_door": 5,
           "walls": 15,
           "pk_path": [
             [
-              5,
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
               0
             ],
             [
               5,
-              1
+              0
             ],
             [
               6,
-              1
-            ],
-            [
-              7,
-              1
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              9,
-              0
-            ],
-            [
-              10,
               0
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.4790690338556574,
+        "quality": 0.4818740987434901,
         "diversity": 1.0,
-        "controlability": 0.4999999994444444
-      },
-      {
-        "control": {
-          "player_key": 13,
-          "key_door": 13
-        },
-        "info": {
-          "regions": 1,
-          "players": 3,
-          "keys": 7,
-          "doors": 6,
-          "enemies": 16,
-          "player_key": 8,
-          "key_door": 11,
-          "walls": 19,
-          "pk_path": [
-            [
-              5,
-              0
-            ],
-            [
-              5,
-              1
-            ],
-            [
-              5,
-              2
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              8,
-              2
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              9,
-              1
-            ],
-            [
-              10,
-              1
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.47903523789315744,
-        "diversity": 1.0,
-        "controlability": 0.8636363633057851
+        "controlability": 0.45238095206575957
       },
       {
         "control": {
           "player_key": 14,
-          "key_door": 17
+          "key_door": 15
         },
         "info": {
           "regions": 1,
           "players": 5,
           "keys": 8,
-          "doors": 4,
-          "enemies": 14,
-          "player_key": 1,
-          "key_door": 4,
-          "walls": 23,
-          "pk_path": [
-            [
-              5,
-              1
-            ],
-            [
-              4,
-              1
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.47992519823910174,
-        "diversity": 1.0,
-        "controlability": 0.17499999987638887
-      },
-      {
-        "control": {
-          "player_key": 14,
-          "key_door": 17
-        },
-        "info": {
-          "regions": 1,
-          "players": 3,
-          "keys": 8,
-          "doors": 5,
-          "enemies": 14,
-          "player_key": -1,
-          "key_door": 16,
-          "walls": 26,
-          "pk_path": [],
-          "kd_path": []
-        },
-        "quality": 0.48074756666004614,
-        "diversity": 0.5,
-        "controlability": 0.5
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 7,
-          "keys": 8,
           "doors": 8,
-          "enemies": 14,
-          "player_key": 1,
+          "enemies": 6,
+          "player_key": 7,
           "key_door": 2,
-          "walls": 29,
+          "walls": 19,
           "pk_path": [
             [
-              1,
+              6,
               0
             ],
             [
-              1,
-              1
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4749909877134352,
-        "diversity": 0.5,
-        "controlability": 0.16666666648148146
-      },
-      null
-    ],
-    [
-      {
-        "control": {
-          "player_key": 14,
-          "key_door": 17
-        },
-        "info": {
-          "regions": 1,
-          "players": 7,
-          "keys": 11,
-          "doors": 16,
-          "enemies": 18,
-          "player_key": 4,
-          "key_door": 4,
-          "walls": 3,
-          "pk_path": [
-            [
-              4,
-              1
+              5,
+              0
             ],
             [
               4,
@@ -1596,13 +655,254 @@
             [
               1,
               0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.46252027754926905,
+        "quality": 0.483485039622879,
+        "diversity": 1.0,
+        "controlability": 0.3685897432875164
+      },
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 7,
+          "keys": 8,
+          "doors": 7,
+          "enemies": 4,
+          "player_key": 4,
+          "key_door": 13,
+          "walls": 23,
+          "pk_path": [
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.48437499997738487,
+        "diversity": 1.0,
+        "controlability": 0.5761904757995464
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 7,
+          "keys": 10,
+          "doors": 10,
+          "enemies": 4,
+          "player_key": 3,
+          "key_door": 12,
+          "walls": 25,
+          "pk_path": [
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4802631578726627,
+        "diversity": 0.25,
+        "controlability": 0.6363636362396694
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 11,
+          "keys": 4,
+          "doors": 9,
+          "enemies": 4,
+          "player_key": 1,
+          "key_door": 16,
+          "walls": 30,
+          "pk_path": [
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.48273026313549605,
+        "diversity": 0.5,
+        "controlability": 0.5416666666319444
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 3,
+          "players": 10,
+          "keys": 5,
+          "doors": 6,
+          "enemies": 4,
+          "player_key": -1,
+          "key_door": 4,
+          "walls": 33,
+          "pk_path": [],
+          "kd_path": []
+        },
+        "quality": 0.41057050246493654,
+        "diversity": 0.33333333333333337,
+        "controlability": 0.15384615372781063
+      }
+    ],
+    [
+      {
+        "control": {
+          "player_key": 12,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 10,
+          "keys": 13,
+          "doors": 11,
+          "enemies": 10,
+          "player_key": 7,
+          "key_door": 1,
+          "walls": 3,
+          "pk_path": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.469369592616824,
+        "diversity": 1.0,
+        "controlability": 0.38333333296111105
+      },
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 8,
+          "keys": 14,
+          "doors": 6,
+          "enemies": 10,
+          "player_key": 5,
+          "key_door": 7,
+          "walls": 6,
+          "pk_path": [
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47430380314249054,
         "diversity": 0.43434343097643113,
-        "controlability": 0.2999999997722222
+        "controlability": 0.41190476162165535
       },
       {
         "control": {
@@ -1611,42 +911,12 @@
         },
         "info": {
           "regions": 1,
-          "players": 11,
-          "keys": 10,
-          "doors": 5,
-          "enemies": 18,
-          "player_key": 1,
-          "key_door": 7,
-          "walls": 6,
-          "pk_path": [
-            [
-              1,
-              0
-            ],
-            [
-              2,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4690992249168245,
-        "diversity": 0.5,
-        "controlability": 0.28333333312777775
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 5,
+          "players": 7,
           "keys": 7,
           "doors": 7,
-          "enemies": 18,
-          "player_key": 10,
-          "key_door": 9,
+          "enemies": 9,
+          "player_key": 1,
+          "key_door": 2,
           "walls": 9,
           "pk_path": [
             [
@@ -1656,10 +926,226 @@
             [
               6,
               0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4809165464725459,
+        "diversity": 0.5,
+        "controlability": 0.11666666657222222
+      },
+      {
+        "control": {
+          "player_key": 12,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 7,
+          "keys": 9,
+          "doors": 6,
+          "enemies": 7,
+          "player_key": 1,
+          "key_door": 6,
+          "walls": 11,
+          "pk_path": [
+            [
+              5,
+              0
             ],
             [
               6,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4818065068184902,
+        "diversity": 0.33333333333333337,
+        "controlability": 0.24999999981666665
+      },
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 8,
+          "keys": 10,
+          "doors": 3,
+          "enemies": 7,
+          "player_key": 2,
+          "key_door": 1,
+          "walls": 15,
+          "pk_path": [
+            [
+              3,
               1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4826288752394346,
+        "diversity": 1.0,
+        "controlability": 0.10476190468866212
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 4,
+          "keys": 6,
+          "doors": 5,
+          "enemies": 10,
+          "player_key": -1,
+          "key_door": 1,
+          "walls": 20,
+          "pk_path": [],
+          "kd_path": []
+        },
+        "quality": 0.48499459261476807,
+        "diversity": 1.0,
+        "controlability": 0.03846153843195266
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 5,
+          "keys": 5,
+          "doors": 7,
+          "enemies": 9,
+          "player_key": 3,
+          "key_door": 7,
+          "walls": 24,
+          "pk_path": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4842060201563236,
+        "diversity": 0.7142857015873021,
+        "controlability": 0.39423076891950193
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 9,
+          "keys": 8,
+          "doors": 4,
+          "enemies": 7,
+          "player_key": 2,
+          "key_door": 9,
+          "walls": 25,
+          "pk_path": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4826288752394346,
+        "diversity": 1.0,
+        "controlability": 0.5409090903764462
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 10,
+          "keys": 6,
+          "doors": 9,
+          "enemies": 7,
+          "player_key": 1,
+          "key_door": 10,
+          "walls": 28,
+          "pk_path": [
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4793394015556569,
+        "diversity": 1.0,
+        "controlability": 0.42628205095147104
+      },
+      null
+    ],
+    [
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 7,
+          "keys": 16,
+          "doors": 8,
+          "enemies": 13,
+          "player_key": 10,
+          "key_door": 1,
+          "walls": 2,
+          "pk_path": [
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
             ],
             [
               6,
@@ -1674,9 +1160,127 @@
               2
             ],
             [
-              4,
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
               1
             ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4692682047293242,
+        "diversity": 1.0,
+        "controlability": 0.3904761901988662
+      },
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 5,
+          "keys": 9,
+          "doors": 7,
+          "enemies": 12,
+          "player_key": 2,
+          "key_door": 3,
+          "walls": 6,
+          "pk_path": [
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47834805332221275,
+        "diversity": 1.0,
+        "controlability": 0.17142857131088435
+      },
+      {
+        "control": {
+          "player_key": 12,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 4,
+          "keys": 9,
+          "doors": 6,
+          "enemies": 11,
+          "player_key": 4,
+          "key_door": 2,
+          "walls": 9,
+          "pk_path": [
+            [
+              8,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.480848954547546,
+        "diversity": 1.0,
+        "controlability": 0.2666666664222222
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 5,
+          "keys": 6,
+          "doors": 7,
+          "enemies": 12,
+          "player_key": 3,
+          "key_door": 1,
+          "walls": 13,
+          "pk_path": [
             [
               3,
               1
@@ -1696,63 +1300,457 @@
           ],
           "kd_path": []
         },
-        "quality": 0.47485580386343546,
+        "quality": 0.4808151585850461,
         "diversity": 1.0,
-        "controlability": 1.0
+        "controlability": 0.1863636361896694
       },
       {
         "control": {
-          "player_key": 11,
+          "player_key": 14,
           "key_door": 11
+        },
+        "info": {
+          "regions": 1,
+          "players": 4,
+          "keys": 8,
+          "doors": 3,
+          "enemies": 12,
+          "player_key": 6,
+          "key_door": 1,
+          "walls": 16,
+          "pk_path": [
+            [
+              10,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4832822638478793,
+        "diversity": 1.0,
+        "controlability": 0.30555555528549383
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 6,
+          "keys": 4,
+          "doors": 7,
+          "enemies": 11,
+          "player_key": 4,
+          "key_door": 2,
+          "walls": 19,
+          "pk_path": [
+            [
+              6,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4824936913894349,
+        "diversity": 0.5,
+        "controlability": 0.24358974339168307
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 6,
+          "keys": 4,
+          "doors": 6,
+          "enemies": 11,
+          "player_key": 2,
+          "key_door": 6,
+          "walls": 24,
+          "pk_path": [
+            [
+              6,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4833160598103793,
+        "diversity": 1.0,
+        "controlability": 0.39090909052644623
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 8,
+          "keys": 4,
+          "doors": 4,
+          "enemies": 12,
+          "player_key": 2,
+          "key_door": 1,
+          "walls": 26,
+          "pk_path": [
+            [
+              6,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4824598954269349,
+        "diversity": 0.5,
+        "controlability": 0.14090909077644626
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 9,
+          "keys": 9,
+          "doors": 4,
+          "enemies": 12,
+          "player_key": -1,
+          "key_door": 1,
+          "walls": 29,
+          "pk_path": [],
+          "kd_path": []
+        },
+        "quality": 0.47752568490126834,
+        "diversity": 0.25,
+        "controlability": 0.04999999995
+      },
+      null
+    ],
+    [
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 6,
+          "keys": 12,
+          "doors": 8,
+          "enemies": 15,
+          "player_key": 5,
+          "key_door": 1,
+          "walls": 1,
+          "pk_path": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47166771806715757,
+        "diversity": 1.0,
+        "controlability": 0.21190476175498865
+      },
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 3,
+          "keys": 13,
+          "doors": 5,
+          "enemies": 14,
+          "player_key": 10,
+          "key_door": 2,
+          "walls": 6,
+          "pk_path": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47663572455532405,
+        "diversity": 0.7560386332528185,
+        "controlability": 0.4238095235099773
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 5,
+          "keys": 8,
+          "doors": 5,
+          "enemies": 14,
+          "player_key": 8,
+          "key_door": 4,
+          "walls": 9,
+          "pk_path": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4791028298181573,
+        "diversity": 1.0,
+        "controlability": 0.48717948678336614
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 5,
+          "keys": 6,
+          "doors": 5,
+          "enemies": 14,
+          "player_key": 11,
+          "key_door": 5,
+          "walls": 11,
+          "pk_path": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.48074756666004614,
+        "diversity": 0.7454792111477996,
+        "controlability": 0.6506410251111521
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
         },
         "info": {
           "regions": 1,
           "players": 6,
           "keys": 5,
           "doors": 5,
-          "enemies": 20,
-          "player_key": 3,
-          "key_door": 10,
-          "walls": 13,
-          "pk_path": [
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ],
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.47561058035938,
-        "diversity": 1.0,
-        "controlability": 0.6666666664814814
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 2,
-          "keys": 7,
-          "doors": 6,
-          "enemies": 20,
+          "enemies": 14,
           "player_key": 4,
-          "key_door": 17,
-          "walls": 14,
+          "key_door": 5,
+          "walls": 17,
           "pk_path": [
+            [
+              6,
+              0
+            ],
+            [
+              5,
+              0
+            ],
             [
               4,
               0
@@ -1764,326 +1762,475 @@
             [
               2,
               0
-            ],
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.47643294878032444,
+        "quality": 0.48074756666004614,
         "diversity": 1.0,
-        "controlability": 0.3888888883641975
+        "controlability": 0.358974358687541
       },
       {
         "control": {
-          "player_key": 11,
-          "key_door": 11
+          "player_key": 13,
+          "key_door": 12
         },
         "info": {
           "regions": 1,
-          "players": 3,
-          "keys": 10,
-          "doors": 5,
-          "enemies": 18,
-          "player_key": 5,
-          "key_door": 6,
-          "walls": 20,
+          "players": 4,
+          "keys": 2,
+          "doors": 6,
+          "enemies": 15,
+          "player_key": 2,
+          "key_door": 1,
+          "walls": 19,
           "pk_path": [
             [
-              10,
-              2
+              3,
+              1
             ],
             [
-              9,
-              2
+              4,
+              1
             ],
             [
-              8,
-              2
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              6,
+              5,
               1
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.4756781722843799,
+        "quality": 0.4831808759603795,
         "diversity": 1.0,
-        "controlability": 0.6111111104320988
+        "controlability": 0.14090909077644626
       },
       {
         "control": {
-          "player_key": 14,
+          "player_key": 16,
           "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 6,
-          "keys": 6,
-          "doors": 5,
-          "enemies": 19,
-          "player_key": 1,
-          "key_door": 15,
-          "walls": 24,
-          "pk_path": [
-            [
-              4,
-              0
-            ],
-            [
-              4,
-              1
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.47564437632187995,
-        "diversity": 1.0,
-        "controlability": 0.5416666666319444
-      },
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 15
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 7,
-          "doors": 5,
-          "enemies": 18,
-          "player_key": 1,
-          "key_door": 10,
-          "walls": 25,
-          "pk_path": [
-            [
-              1,
-              0
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4756781722843799,
-        "diversity": 1.0,
-        "controlability": 0.42032967000830207
-      },
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 15
-        },
-        "info": {
-          "regions": 2,
-          "players": 7,
-          "keys": 6,
-          "doors": 4,
-          "enemies": 18,
+          "players": 4,
+          "keys": 8,
+          "doors": 2,
+          "enemies": 14,
           "player_key": -1,
-          "key_door": 10,
-          "walls": 28,
+          "key_door": 2,
+          "walls": 24,
           "pk_path": [],
           "kd_path": []
         },
-        "quality": 0.4391871075520608,
+        "quality": 0.48239230350193507,
         "diversity": 1.0,
-        "controlability": 0.3846153843195266
+        "controlability": 0.06666666662222222
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 10,
+          "keys": 7,
+          "doors": 5,
+          "enemies": 14,
+          "player_key": 1,
+          "key_door": 6,
+          "walls": 26,
+          "pk_path": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4758133561343796,
+        "diversity": 0.33333333333333337,
+        "controlability": 0.3454545451132231
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 2,
+          "players": 8,
+          "keys": 8,
+          "doors": 5,
+          "enemies": 14,
+          "player_key": -1,
+          "key_door": 2,
+          "walls": 29,
+          "pk_path": [],
+          "kd_path": []
+        },
+        "quality": 0.4393222914020605,
+        "diversity": 0.25,
+        "controlability": 0.0999999999
       },
       null
     ],
     [
       {
         "control": {
-          "player_key": 13,
-          "key_door": 13
+          "player_key": 16,
+          "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 8,
-          "keys": 11,
-          "doors": 8,
-          "enemies": 21,
-          "player_key": 7,
-          "key_door": 2,
+          "players": 3,
+          "keys": 14,
+          "doors": 9,
+          "enemies": 19,
+          "player_key": 1,
+          "key_door": 3,
           "walls": 3,
           "pk_path": [
             [
-              4,
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.46824306053338016,
+        "diversity": 1.0,
+        "controlability": 0.13571428562210885
+      },
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 4,
+          "keys": 12,
+          "doors": 7,
+          "enemies": 18,
+          "player_key": 6,
+          "key_door": 1,
+          "walls": 5,
+          "pk_path": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
               1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
             ],
             [
               3,
               1
             ],
             [
-              2,
-              1
-            ],
-            [
-              2,
-              2
-            ],
-            [
-              1,
-              2
-            ],
-            [
-              0,
-              2
-            ],
-            [
-              0,
-              1
-            ],
-            [
-              0,
+              3,
               0
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.465708363345547,
-        "diversity": 0.8571428452380957,
-        "controlability": 0.4090909087190082
+        "quality": 0.47156633017965777,
+        "diversity": 1.0,
+        "controlability": 0.24761904744376415
       },
       {
         "control": {
-          "player_key": 12,
-          "key_door": 17
-        },
-        "info": {
-          "regions": 1,
-          "players": 10,
-          "keys": 8,
-          "doors": 6,
-          "enemies": 21,
-          "player_key": 1,
-          "key_door": 7,
-          "walls": 6,
-          "pk_path": [
-            [
-              1,
-              0
-            ],
-            [
-              2,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4681754686083803,
-        "diversity": 0.5,
-        "controlability": 0.28333333312777775
-      },
-      {
-        "control": {
-          "player_key": 12,
-          "key_door": 17
+          "player_key": 14,
+          "key_door": 15
         },
         "info": {
           "regions": 1,
           "players": 8,
-          "keys": 9,
+          "keys": 3,
           "doors": 4,
-          "enemies": 21,
-          "player_key": 1,
-          "key_door": 7,
+          "enemies": 19,
+          "player_key": 3,
+          "key_door": 8,
           "walls": 10,
           "pk_path": [
             [
-              1,
+              6,
               0
             ],
             [
-              2,
+              7,
               0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              1
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.47064257387121355,
-        "diversity": 0.5,
-        "controlability": 0.28333333312777775
+        "quality": 0.4772891131637688,
+        "diversity": 1.0,
+        "controlability": 0.4326923073514546
       },
       {
         "control": {
-          "player_key": 11,
-          "key_door": 11
+          "player_key": 14,
+          "key_door": 15
         },
         "info": {
           "regions": 1,
-          "players": 7,
-          "keys": 6,
+          "players": 6,
+          "keys": 5,
           "doors": 5,
-          "enemies": 21,
-          "player_key": 3,
-          "key_door": 10,
-          "walls": 12,
+          "enemies": 18,
+          "player_key": 10,
+          "key_door": 4,
+          "walls": 11,
           "pk_path": [
             [
-              1,
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
               2
             ],
             [
-              1,
+              6,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
               1
             ],
             [
               1,
-              0
-            ],
-            [
-              0,
-              0
+              1
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.4731096791340468,
-        "diversity": 0.7380952301587305,
-        "controlability": 0.6666666664814814
+        "quality": 0.47732290912626874,
+        "diversity": 0.8571428452380957,
+        "controlability": 0.5705128200472551
       },
       {
         "control": {
-          "player_key": 11,
-          "key_door": 11
+          "player_key": 14,
+          "key_door": 15
         },
         "info": {
           "regions": 1,
-          "players": 8,
+          "players": 3,
           "keys": 6,
-          "doors": 3,
-          "enemies": 21,
-          "player_key": 11,
-          "key_door": 5,
-          "walls": 14,
+          "doors": 4,
+          "enemies": 18,
+          "player_key": 10,
+          "key_door": 6,
+          "walls": 15,
           "pk_path": [
             [
-              1,
+              6,
               0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
             ],
             [
               1,
               1
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.479790014389102,
+        "diversity": 1.0,
+        "controlability": 0.6474358969111604
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 4,
+          "keys": 4,
+          "doors": 7,
+          "enemies": 18,
+          "player_key": -1,
+          "key_door": 13,
+          "walls": 18,
+          "pk_path": [],
+          "kd_path": []
+        },
+        "quality": 0.47814527754721314,
+        "diversity": 1.0,
+        "controlability": 0.5
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 6,
+          "keys": 1,
+          "doors": 9,
+          "enemies": 19,
+          "player_key": 3,
+          "key_door": 2,
+          "walls": 21,
+          "pk_path": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4764667447510481,
+        "diversity": 1.0,
+        "controlability": 0.20192307675973864
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 2,
+          "players": 6,
+          "keys": 6,
+          "doors": 4,
+          "enemies": 18,
+          "player_key": -1,
+          "key_door": 10,
+          "walls": 26,
+          "pk_path": [],
+          "kd_path": []
+        },
+        "quality": 0.4400094759730052,
+        "diversity": 1.0,
+        "controlability": 0.5
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 3,
+          "keys": 11,
+          "doors": 7,
+          "enemies": 23,
+          "player_key": 5,
+          "key_door": 5,
+          "walls": 2,
+          "pk_path": [
+            [
+              2,
+              0
             ],
             [
               2,
@@ -2102,106 +2249,255 @@
               1
             ],
             [
+              5,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4689302451043248,
+        "diversity": 1.0,
+        "controlability": 0.3452380949994331
+      },
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 2,
+          "keys": 12,
+          "doors": 6,
+          "enemies": 21,
+          "player_key": 5,
+          "key_door": 7,
+          "walls": 6,
+          "pk_path": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47146494229215796,
+        "diversity": 0.31944444212962975,
+        "controlability": 0.41190476162165535
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 6,
+          "keys": 6,
+          "doors": 5,
+          "enemies": 21,
+          "player_key": 10,
+          "key_door": 4,
+          "walls": 10,
+          "pk_path": [
+            [
+              6,
+              0
+            ],
+            [
               6,
               1
             ],
             [
-              7,
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
               1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47393204755499124,
+        "diversity": 0.4891304268115946,
+        "controlability": 0.5705128200472551
+      },
+      {
+        "control": {
+          "player_key": 16,
+          "key_door": 17
+        },
+        "info": {
+          "regions": 1,
+          "players": 4,
+          "keys": 6,
+          "doors": 7,
+          "enemies": 21,
+          "player_key": 8,
+          "key_door": 10,
+          "walls": 13,
+          "pk_path": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
             ],
             [
               8,
-              1
-            ],
-            [
-              9,
-              1
-            ],
-            [
-              9,
-              0
-            ],
-            [
-              10,
-              0
+              2
             ]
           ],
           "kd_path": []
         },
         "quality": 0.47393204755499124,
         "diversity": 1.0,
-        "controlability": 0.7777777774691358
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 2,
-          "keys": 9,
-          "doors": 7,
-          "enemies": 21,
-          "player_key": 2,
-          "key_door": 6,
-          "walls": 19,
-          "pk_path": [
-            [
-              6,
-              3
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              6,
-              1
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4731096791340468,
-        "diversity": 1.0,
-        "controlability": 0.4444444439506172
+        "controlability": 0.6190476186213152
       },
       {
         "control": {
           "player_key": 14,
-          "key_door": 17
+          "key_door": 15
         },
         "info": {
           "regions": 1,
           "players": 4,
-          "keys": 7,
-          "doors": 5,
-          "enemies": 22,
-          "player_key": -1,
-          "key_door": 14,
-          "walls": 22,
-          "pk_path": [],
+          "keys": 1,
+          "doors": 7,
+          "enemies": 23,
+          "player_key": 1,
+          "key_door": 3,
+          "walls": 14,
+          "pk_path": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ],
           "kd_path": []
         },
-        "quality": 0.4738982515924913,
+        "quality": 0.47633156090104833,
         "diversity": 1.0,
-        "controlability": 0.46666666635555554
+        "controlability": 0.15705128192780243
       },
       {
         "control": {
-          "player_key": 14,
-          "key_door": 17
+          "player_key": 13,
+          "key_door": 12
         },
         "info": {
           "regions": 1,
           "players": 6,
-          "keys": 7,
-          "doors": 6,
-          "enemies": 21,
-          "player_key": 1,
-          "key_door": 3,
-          "walls": 26,
+          "keys": 4,
+          "doors": 3,
+          "enemies": 22,
+          "player_key": 8,
+          "key_door": 10,
+          "walls": 19,
           "pk_path": [
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
             [
               1,
               1
@@ -2209,237 +2505,44 @@
             [
               0,
               1
+            ],
+            [
+              0,
+              0
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.47228731071310237,
+        "quality": 0.47636535685532455,
         "diversity": 1.0,
-        "controlability": 0.14166666656527777
+        "controlability": 0.8636363633057851
       },
-      null,
-      null
-    ],
-    [
-      null,
       {
         "control": {
           "player_key": 14,
-          "key_door": 17
+          "key_door": 15
         },
         "info": {
           "regions": 1,
           "players": 5,
-          "keys": 11,
-          "doors": 8,
-          "enemies": 25,
-          "player_key": 2,
-          "key_door": 14,
-          "walls": 6,
-          "pk_path": [
-            [
-              0,
-              1
-            ],
-            [
-              0,
-              0
-            ],
-            [
-              1,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4647508110746028,
-        "diversity": 1.0,
-        "controlability": 0.5499999996194445
-      },
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 15
-        },
-        "info": {
-          "regions": 1,
-          "players": 7,
-          "keys": 7,
-          "doors": 6,
-          "enemies": 25,
-          "player_key": 7,
-          "key_door": 2,
-          "walls": 8,
-          "pk_path": [
-            [
-              6,
-              1
-            ],
-            [
-              6,
-              0
-            ],
-            [
-              5,
-              0
-            ],
-            [
-              4,
-              0
-            ],
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ],
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.46804028475838055,
-        "diversity": 1.0,
-        "controlability": 0.3269230766853339
-      },
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 15
-        },
-        "info": {
-          "regions": 1,
-          "players": 7,
-          "keys": 10,
+          "keys": 4,
           "doors": 4,
-          "enemies": 25,
-          "player_key": 4,
-          "key_door": 11,
-          "walls": 11,
+          "enemies": 22,
+          "player_key": 14,
+          "key_door": 4,
+          "walls": 21,
           "pk_path": [
             [
-              3,
+              8,
+              0
+            ],
+            [
+              8,
               1
             ],
             [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ],
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4672179163374361,
-        "diversity": 0.6666666611111113,
-        "controlability": 0.5659340655065813
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 4,
-          "keys": 6,
-          "doors": 3,
-          "enemies": 26,
-          "player_key": 9,
-          "key_door": 3,
-          "walls": 17,
-          "pk_path": [
-            [
-              7,
-              3
-            ],
-            [
-              7,
+              8,
               2
-            ],
-            [
-              7,
-              1
-            ],
-            [
-              7,
-              0
-            ],
-            [
-              6,
-              0
-            ],
-            [
-              5,
-              0
-            ],
-            [
-              4,
-              0
-            ],
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ],
-            [
-              1,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.47294069932154714,
-        "diversity": 1.0,
-        "controlability": 0.6666666664814814
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 8,
-          "doors": 3,
-          "enemies": 25,
-          "player_key": 12,
-          "key_door": 7,
-          "walls": 19,
-          "pk_path": [
-            [
-              9,
-              1
-            ],
-            [
-              9,
-              2
-            ],
-            [
-              9,
-              3
             ],
             [
               8,
@@ -2450,28 +2553,169 @@
               3
             ],
             [
-              7,
-              4
-            ],
-            [
               6,
-              4
+              3
             ],
             [
               5,
-              4
-            ],
-            [
-              4,
-              4
+              3
             ],
             [
               4,
               3
             ],
             [
-              4,
+              3,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
               2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47636535685532455,
+        "diversity": 1.0,
+        "controlability": 0.6538461537278106
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 5,
+          "players": 5,
+          "keys": 9,
+          "doors": 4,
+          "enemies": 21,
+          "player_key": 13,
+          "key_door": 6,
+          "walls": 25,
+          "pk_path": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.32385594764039566,
+        "diversity": 1.0,
+        "controlability": 0.730769230591716
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 11
+        },
+        "info": {
+          "regions": 1,
+          "players": 3,
+          "keys": 9,
+          "doors": 10,
+          "enemies": 25,
+          "player_key": 7,
+          "key_door": 1,
+          "walls": 4,
+          "pk_path": [
+            [
+              8,
+              2
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
             ],
             [
               4,
@@ -2479,6 +2723,60 @@
             ],
             [
               3,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4663955479164916,
+        "diversity": 0.8571428452380957,
+        "controlability": 0.34722222191743823
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 6,
+          "keys": 6,
+          "doors": 5,
+          "enemies": 25,
+          "player_key": 6,
+          "key_door": 3,
+          "walls": 9,
+          "pk_path": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
               1
             ]
           ],
@@ -2486,524 +2784,268 @@
         },
         "quality": 0.4705073900212138,
         "diversity": 1.0,
-        "controlability": 0.88888888845679
+        "controlability": 0.3653846150875246
       },
       {
         "control": {
-          "player_key": 14,
+          "player_key": 16,
           "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 8,
+          "players": 2,
           "keys": 7,
-          "doors": 4,
-          "enemies": 25,
-          "player_key": 1,
+          "doors": 5,
+          "enemies": 27,
+          "player_key": 2,
           "key_door": 3,
-          "walls": 22,
+          "walls": 13,
           "pk_path": [
-            [
-              7,
-              1
-            ],
-            [
-              6,
-              1
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.46886265317932496,
-        "diversity": 1.0,
-        "controlability": 0.14166666656527777
-      },
-      null,
-      null,
-      null
-    ],
-    [
-      null,
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 15
-        },
-        "info": {
-          "regions": 1,
-          "players": 8,
-          "keys": 9,
-          "doors": 5,
-          "enemies": 28,
-          "player_key": 11,
-          "key_door": 2,
-          "walls": 6,
-          "pk_path": [
-            [
-              8,
-              1
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              7,
-              0
-            ],
-            [
-              6,
-              0
-            ],
-            [
-              6,
-              1
-            ],
             [
               5,
               1
             ],
             [
-              4,
+              6,
               1
             ],
             [
-              3,
-              1
-            ],
-            [
-              2,
-              1
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              0
-            ],
-            [
-              0,
+              6,
               0
             ]
           ],
           "kd_path": []
         },
-        "quality": 0.4638270547661586,
-        "diversity": 1.0,
-        "controlability": 0.4697802194404359
+        "quality": 0.47126216651715835,
+        "diversity": 0.5,
+        "controlability": 0.17142857131088435
       },
       {
         "control": {
           "player_key": 16,
-          "key_door": 15
+          "key_door": 17
         },
         "info": {
           "regions": 1,
-          "players": 4,
-          "keys": 14,
-          "doors": 7,
-          "enemies": 28,
-          "player_key": 14,
-          "key_door": 2,
-          "walls": 9,
-          "pk_path": [
-            [
-              9,
-              1
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              8,
-              2
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              5,
-              2
-            ],
-            [
-              5,
-              3
-            ],
-            [
-              4,
-              3
-            ],
-            [
-              3,
-              3
-            ],
-            [
-              2,
-              3
-            ],
-            [
-              1,
-              3
-            ],
-            [
-              1,
-              2
-            ],
-            [
-              0,
-              2
-            ],
-            [
-              0,
-              1
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4613599495033253,
-        "diversity": 1.0,
-        "controlability": 0.5769230768639053
-      },
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 15
-        },
-        "info": {
-          "regions": 1,
-          "players": 4,
-          "keys": 8,
-          "doors": 5,
-          "enemies": 28,
-          "player_key": 10,
-          "key_door": 2,
-          "walls": 11,
-          "pk_path": [
-            [
-              7,
-              3
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              6,
-              2
-            ],
-            [
-              6,
-              1
-            ],
-            [
-              6,
-              0
-            ],
-            [
-              5,
-              0
-            ],
-            [
-              4,
-              0
-            ],
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ],
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.46793889687088075,
-        "diversity": 0.7845528360433609,
-        "controlability": 0.4340659337516604
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 7,
+          "players": 2,
+          "keys": 5,
           "doors": 4,
-          "enemies": 28,
-          "player_key": 11,
-          "key_door": 7,
-          "walls": 17,
-          "pk_path": [
-            [
-              9,
-              1
-            ],
-            [
-              9,
-              2
-            ],
-            [
-              8,
-              2
-            ],
-            [
-              8,
-              3
-            ],
-            [
-              7,
-              3
-            ],
-            [
-              7,
-              4
-            ],
-            [
-              6,
-              4
-            ],
-            [
-              5,
-              4
-            ],
-            [
-              5,
-              3
-            ],
-            [
-              5,
-              2
-            ],
-            [
-              5,
-              1
-            ],
-            [
-              6,
-              1
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.46793889687088075,
-        "diversity": 0.7243589668803421,
-        "controlability": 0.88888888845679
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 8,
-          "doors": 3,
-          "enemies": 28,
-          "player_key": 3,
-          "key_door": 11,
-          "walls": 18,
-          "pk_path": [
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ],
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.46793889687088075,
-        "diversity": 0.8333333222222226,
-        "controlability": 0.6666666664814814
-      },
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      null,
-      null,
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 15
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 9,
-          "doors": 6,
-          "enemies": 33,
-          "player_key": 14,
-          "key_door": 2,
-          "walls": 9,
-          "pk_path": [
-            [
-              7,
-              1
-            ],
-            [
-              7,
-              2
-            ],
-            [
-              7,
-              3
-            ],
-            [
-              7,
-              4
-            ],
-            [
-              6,
-              4
-            ],
-            [
-              5,
-              4
-            ],
-            [
-              4,
-              4
-            ],
-            [
-              3,
-              4
-            ],
-            [
-              2,
-              4
-            ],
-            [
-              2,
-              3
-            ],
-            [
-              2,
-              2
-            ],
-            [
-              1,
-              2
-            ],
-            [
-              0,
-              2
-            ],
-            [
-              0,
-              1
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4603686012698812,
-        "diversity": 1.0,
-        "controlability": 0.5769230768639053
-      },
-      {
-        "control": {
-          "player_key": 11,
-          "key_door": 11
-        },
-        "info": {
-          "regions": 1,
-          "players": 9,
-          "keys": 8,
-          "doors": 1,
-          "enemies": 32,
-          "player_key": 3,
-          "key_door": 13,
-          "walls": 12,
-          "pk_path": [
-            [
-              3,
-              0
-            ],
-            [
-              2,
-              0
-            ],
-            [
-              1,
-              0
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "kd_path": []
-        },
-        "quality": 0.4636918709243825,
-        "diversity": 0.8333333222222226,
-        "controlability": 0.6666666664814814
-      },
-      {
-        "control": {
-          "player_key": 16,
-          "key_door": 15
-        },
-        "info": {
-          "regions": 1,
-          "players": 6,
-          "keys": 10,
-          "doors": 5,
-          "enemies": 32,
-          "player_key": 5,
-          "key_door": 11,
+          "enemies": 26,
+          "player_key": 2,
+          "key_door": 3,
           "walls": 14,
           "pk_path": [
             [
               5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
               0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47458543616343596,
+        "diversity": 1.0,
+        "controlability": 0.17142857131088435
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 4,
+          "keys": 5,
+          "doors": 3,
+          "enemies": 25,
+          "player_key": 15,
+          "key_door": 10,
+          "walls": 20,
+          "pk_path": [
+            [
+              8,
+              1
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.47461923212593593,
+        "diversity": 1.0,
+        "controlability": 1.0
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 5,
+          "keys": 4,
+          "doors": 5,
+          "enemies": 28,
+          "player_key": 2,
+          "key_door": 3,
+          "walls": 10,
+          "pk_path": [
+            [
+              4,
+              1
             ],
             [
               4,
               0
             ],
             [
-              3,
+              5,
               0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.470406002133714,
+        "diversity": 1.0,
+        "controlability": 0.24090909067644625
+      },
+      {
+        "control": {
+          "player_key": 13,
+          "key_door": 12
+        },
+        "info": {
+          "regions": 1,
+          "players": 5,
+          "keys": 3,
+          "doors": 7,
+          "enemies": 28,
+          "player_key": 2,
+          "key_door": 3,
+          "walls": 13,
+          "pk_path": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.46958363371276957,
+        "diversity": 0.33333333333333337,
+        "controlability": 0.24090909067644625
+      },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 2,
+          "players": 6,
+          "keys": 6,
+          "doors": 7,
+          "enemies": 29,
+          "player_key": 6,
+          "key_door": 3,
+          "walls": 15,
+          "pk_path": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
             ],
             [
               2,
@@ -3020,10 +3062,92 @@
           ],
           "kd_path": []
         },
-        "quality": 0.46122476565332554,
+        "quality": 0.428124562492284,
         "diversity": 1.0,
-        "controlability": 0.6016483511953569
+        "controlability": 0.3653846150875246
       },
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 3,
+          "players": 4,
+          "keys": 5,
+          "doors": 3,
+          "enemies": 28,
+          "player_key": 4,
+          "key_door": 4,
+          "walls": 19,
+          "pk_path": [
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.39742387304221005,
+        "diversity": 1.0,
+        "controlability": 0.32051282025558836
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "control": {
+          "player_key": 14,
+          "key_door": 15
+        },
+        "info": {
+          "regions": 1,
+          "players": 4,
+          "keys": 7,
+          "doors": 8,
+          "enemies": 32,
+          "player_key": 1,
+          "key_door": 1,
+          "walls": 8,
+          "pk_path": [
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "kd_path": []
+        },
+        "quality": 0.4628695024952144,
+        "diversity": 1.0,
+        "controlability": 0.08012820506389709
+      },
+      null,
+      null,
       null,
       null,
       null,

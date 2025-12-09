@@ -1,4 +1,5 @@
 from pcg_benchmark.probs import Problem
+from pcg_benchmark.probs.map_elites_problem import MapElitesInterface, DBStruct, _DBStructValue
 from pcg_benchmark.spaces import ArraySpace, DictionarySpace, IntegerSpace
 from pcg_benchmark.probs.utils import get_number_regions, get_num_tiles, _get_certain_tiles, get_range_reward
 from pcg_benchmark.probs.mdungeons.engine import State,BFSAgent,AStarAgent
@@ -54,7 +55,7 @@ def _run_game(content, solver_power):
 
     return solState.getHeuristic(), [], solState.getGameStatus()
 
-class MiniDungeonProblem(Problem):
+class MiniDungeonProblem(Problem, MapElitesInterface):
     def __init__(self, **kwargs):
         Problem.__init__(self, **kwargs)
 
@@ -93,6 +94,15 @@ class MiniDungeonProblem(Problem):
         for name in stats:
             result[name] = stats[name]
         return result
+
+    def name(self) -> str:
+        return "mdungeons"
+
+    def descriptor_space(self):
+        return DBStruct(
+            X_behavior=_DBStructValue("enemies", 25),
+            Y_behavior=_DBStructValue("potions", 25)
+        )
     
     def quality(self, info):
         regions = get_range_reward(info["regions"], 0, 1, 1, self._width * self._height / 10)
@@ -129,8 +139,7 @@ class MiniDungeonProblem(Problem):
         hamming = (abs(info1["content"] - info2["content"]) > 0).sum() / (self._width * self._height)
         seq_score = 1 - SequenceMatcher(None, seq1, seq2).ratio()
         return get_range_reward(seq_score * 0.8 + hamming * 0.2, 0, self._diversity, 1.0)
-                
-    
+
     def controlability(self, info, control):
         if info["heuristic"] == -1:
             return 0.0
