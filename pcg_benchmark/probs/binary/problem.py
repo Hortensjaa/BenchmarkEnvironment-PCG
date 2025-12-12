@@ -41,7 +41,8 @@ class BinaryProblem(Problem):
         scale = 16
         graphics = [
             Image.open(os.path.dirname(__file__) + "/images/solid.png").convert('RGBA'),
-            Image.open(os.path.dirname(__file__) + "/images/empty.png").convert('RGBA')
+            Image.open(os.path.dirname(__file__) + "/images/empty.png").convert('RGBA'),
+            Image.open(os.path.dirname(__file__) + "/images/room.png").convert('RGBA')
         ]
         lvl = np.pad(np.array(content), 1)
         lvl_image = Image.new("RGBA", (lvl.shape[1]*scale, lvl.shape[0]*scale), (0,0,0,255))
