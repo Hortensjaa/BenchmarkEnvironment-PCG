@@ -129,31 +129,37 @@ class BinarySpacePartitioning:
             self.connect_rooms(self.root)
 
         # 4. Return result
-        content = bsp.content
-        info = bsp._problem.info(content)
+        content = self.content
+        info = self._problem.info(content)
         result = {
-            "content": content,
             "depth": self.depth,
-            "quality": bsp._problem.quality(info)
+            "quality": self._problem.quality(info),
+            "content": content,
         }
         return result
 
-def save(result, iter_num):
+def save(result, iter_num, depth):
         """Saves the generated level to a file."""
-        folderpath = f"../../../task5_results/binary_space_partitioning/{result.get('depth')}"
+        folderpath = f"../../../task5_results/binary_space_partitioning"
         if not os.path.exists(folderpath):
             os.makedirs(folderpath)
-        filename = f"bsp_{iter_num%10}.json"
+        filename = f"bsp_{depth}_{iter_num}.json"
         full_filepath = os.path.join(folderpath, filename)
         with open(full_filepath, 'w') as f:
             json.dump(result, f, indent=4)
 
 if __name__ == "__main__":
-    for i in range(20, 120):
-        bsp = BinarySpacePartitioning(depth=i//10)
-        res = bsp.full_generation()
-        save(res, i)
-        # -- render for every depth to see the difference
-        # if (i % 10) == 0:
-        #     image = bsp._problem.render(bsp.content)
-        #     image.show()
+    depths = range(2, 16)
+    for d in depths:
+        for i in range(100):
+            bsp = BinarySpacePartitioning(depth=d)
+            res = bsp.full_generation()
+            # -- save results to create plots later
+            # save(res, i, d)
+            # -- render for every depth to see the difference
+            if i == 0:
+                image = bsp._problem.render(bsp.content)
+                folderpath = "../../../task5_results/images/binary_space_partitioning"
+                if not os.path.exists(folderpath):
+                    os.makedirs(folderpath)
+                image.save(os.path.join(folderpath, f"bsp_depth_{d}.png"))
